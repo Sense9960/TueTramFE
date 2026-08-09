@@ -51,7 +51,7 @@ export default function Founder() {
           <figure style={{ margin: 0 }}>
             <img
               src={founderImg}
-              alt="Lương y Phạm Ngọc Huỳnh"
+              alt="Lương y Phạm Ngọc Quỳnh"
               style={{
                 width: isMobile ? 'min(320px, 78vw)' : 'min(380px, 36vw)',
                 aspectRatio: '3 / 4',

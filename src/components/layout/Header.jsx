@@ -35,7 +35,7 @@ export const SHOP_MODE = false
 // Nhóm "Có thể bạn quan tâm" trong mega-menu — lấy nguyên văn từ mockup,
 // riêng mục "Giỏ hàng & đặt hàng" chỉ hiện khi SHOP_MODE bật.
 const MENU_EXTRA_LINKS = [
-  { to: '/nguoi-sang-lap', label: 'Lương y Phạm Ngọc Huỳnh' },
+  { to: '/nguoi-sang-lap', label: 'Lương y Phạm Ngọc Quỳnh' },
   { to: '/gio-hang', label: 'Giỏ hàng & đặt hàng', shopOnly: true },
   { to: '/bai-viet', label: 'Bài viết' },
 ]

@@ -116,12 +116,12 @@ export default function Home() {
             một niệm <span style={{ color: colors.accentPeach }}>an lành</span>
           </h1>
           {/* `white-space: nowrap` quanh tên để KHÔNG bao giờ ngắt dòng giữa
-              "Lương y Phạm Ngọc Huỳnh" (trước đây bị tách "Lương y Phạm Ngọc"
-              / "Huỳnh" xuống 2 dòng, đọc rất khó). `textWrap: balance` chia
+              "Lương y Phạm Ngọc Quỳnh" (trước đây bị tách "Lương y Phạm Ngọc"
+              / "Quỳnh" xuống 2 dòng, đọc rất khó). `textWrap: balance` chia
               đều độ dài các dòng còn lại. */}
           <p style={{ fontSize: 17, color: colors.neutralTan, maxWidth: '46ch', margin: 0, textWrap: 'balance' }}>
             Nhang trầm và trầm hương tự nhiên do{' '}
-            <span style={{ whiteSpace: 'nowrap' }}>Lương y Phạm Ngọc Huỳnh</span> tuyển chọn — sạch, thuần
+            <span style={{ whiteSpace: 'nowrap' }}>Lương y Phạm Ngọc Quỳnh</span> tuyển chọn — sạch, thuần
             mộc, dâng hương cúng Phật và thanh lọc không gian sống.
           </p>
           <div style={{ display: 'flex', gap: 8, marginTop: 17, flexWrap: 'wrap' }}>
@@ -333,7 +333,7 @@ export default function Home() {
         >
           <img
             src={founderPreviewImg}
-            alt="Lương y Phạm Ngọc Huỳnh"
+            alt="Lương y Phạm Ngọc Quỳnh"
             style={{
               width: isMobile ? 190 : 250,
               height: isMobile ? 190 : 250,

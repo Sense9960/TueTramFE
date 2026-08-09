@@ -11,19 +11,19 @@
 // `isAbout` = trang /nguoi-sang-lap), đọc trực tiếp ngày 2026-08-06.
 // KHÔNG tự viết lại/rút gọn — nếu cần sửa câu chữ phải hỏi chủ shop.
 export const founder = {
-  name: 'Lương y Phạm Ngọc Huỳnh',
+  name: 'Lương y Phạm Ngọc Quỳnh',
   // h1 trang /nguoi-sang-lap xuống dòng sau "Lương y"
-  nameLines: ['Lương y', 'Phạm Ngọc Huỳnh'],
+  nameLines: ['Lương y', 'Phạm Ngọc Quỳnh'],
   dharmaName: 'Pháp danh: Đại Đức Thích Minh Hiếu',
   source: 'Theo tạp chí Thương Gia & Thị Trường',
-  photoCaption: 'Lương y Phạm Ngọc Huỳnh — pháp danh Đại Đức Thích Minh Hiếu',
+  photoCaption: 'Lương y Phạm Ngọc Quỳnh — pháp danh Đại Đức Thích Minh Hiếu',
   // Câu trích ở khối trang chủ. Mockup ngắt dòng sau "tốt đẹp", nhưng theo
   // yêu cầu chủ dự án (2026-08-07) hiển thị TRÊN MỘT DÒNG và có dấu chấm
   // cuối câu — cỡ chữ ở Home đã giảm cho vừa một dòng, xem Home/index.jsx.
   quote: 'Cho đi sẽ nhận lại điều tốt đẹp không thể đong đếm.',
   // Đoạn mô tả ngắn ở khối trang chủ
   bioShort:
-    'Lương y Phạm Ngọc Huỳnh — pháp danh Đại Đức Thích Minh Hiếu, người phụ trách phòng thuốc từ thiện Tâm Không Đường tại Đà Lạt — đã dành hơn sáu năm khám chữa bệnh miễn phí cho người nghèo. Mỗi nén trầm Tuệ Trầm là một phần tiếp sức cho hành trình ấy.',
+    'Lương y Phạm Ngọc Quỳnh — pháp danh Đại Đức Thích Minh Hiếu, người phụ trách phòng thuốc từ thiện Tâm Không Đường tại Đà Lạt — đã dành hơn sáu năm khám chữa bệnh miễn phí cho người nghèo. Mỗi nén trầm Tuệ Trầm là một phần tiếp sức cho hành trình ấy.',
   // Đoạn giới thiệu dài ở đầu trang /nguoi-sang-lap
   intro:
     'Người phụ trách phòng thuốc Tâm Không Đường (Thôn Đất Làng, Xã Xuân Trường, Đà Lạt) — một chi nhánh của Phòng khám chẩn trị YHCT Tâm Không Đường tại Cần Giuộc, Long An — kiêm thêm công việc của Viện Phát triển Văn hoá và Chăm sóc Sức khoẻ Cộng đồng.',
