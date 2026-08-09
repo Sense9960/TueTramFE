@@ -26,7 +26,7 @@ export const founder = {
     'Lương y Phạm Ngọc Quỳnh — pháp danh Đại Đức Thích Minh Hiếu, người phụ trách phòng thuốc từ thiện Tâm Không Đường tại Đà Lạt — đã dành hơn sáu năm khám chữa bệnh miễn phí cho người nghèo. Mỗi nén trầm Tuệ Trầm là một phần tiếp sức cho hành trình ấy.',
   // Đoạn giới thiệu dài ở đầu trang /nguoi-sang-lap
   intro:
-    'Người phụ trách phòng thuốc Tâm Không Đường (Thôn Đất Làng, Xã Xuân Trường, Đà Lạt) — một chi nhánh của Phòng khám chẩn trị YHCT Tâm Không Đường tại Cần Giuộc, Long An — kiêm thêm công việc của Viện Phát triển Văn hoá và Chăm sóc Sức khoẻ Cộng đồng.',
+    'Người phụ trách phòng thuốc Tâm Không Đường (Thôn Đất Làng, Xã Xuân Trường, Đà Lạt) — kiêm thêm công việc của Viện Phát triển Văn hoá và Chăm sóc Sức khoẻ Cộng đồng.',
   // Nội dung bài trong thẻ card kem ở trang /nguoi-sang-lap
   article: {
     section1Title: 'Phòng thuốc dành cho người nghèo',
