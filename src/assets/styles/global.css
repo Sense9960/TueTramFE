@@ -1,0 +1,107 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Nền mặc định của toàn site = --color-neutral-900 trong mockup gốc
+   "Tue Tram - Standalone.html" (#2e2b25) — xem colors.textDark2 trong
+   src/constants/theme.js. Đây là site dark-theme, không phải nền sáng. */
+body {
+  margin: 0;
+  background: #2e2b25;
+  color: #f9f4ed;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Khớp fontFamily.display trong src/constants/theme.js — Caprasimo không có
+   subset vietnamese nên KHÔNG dùng, xem CLAUDE.md mục 1. */
+.font-display {
+  font-family: 'Baloo 2', 'Be Vietnam Pro', system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Header.jsx — mockup dùng style-hover (chỉ có trong template engine của
+   Claude Design) để đổi màu link khi hover sang --color-accent-300
+   (#ffc6a5); CSS thường không làm được qua inline style nên tách class này. */
+.tt-header-link {
+  transition: color 0.15s ease;
+}
+/* Carousel sản phẩm ở trang chủ: mockup dùng scrollbar-width:none để ẩn
+   thanh cuộn ngang (điều hướng bằng 2 nút tròn prev/next). Inline style
+   không đặt được ::-webkit-scrollbar nên phải khai báo ở đây. */
+.tt-hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.tt-hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Link trong mega-menu "Sản phẩm" (nền kem sổ từ header xuống).
+   Mockup: font-heading 23px weight 500, màu --color-neutral-900,
+   hover đổi sang --color-accent-600. Dùng class vì inline style
+   không đặt được :hover. */
+.tt-mega-link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Baloo 2', 'Be Vietnam Pro', system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 1.35;
+  color: #2e2b25;
+}
+.tt-mega-link-sm {
+  font-size: 19px;
+}
+.tt-mega-link:hover {
+  color: #b2622d;
+}
+
+/* Mega-menu ở MOBILE (2026-08-07): nút ☰ mở đúng menu này thay cho Drawer cũ.
+   Cỡ chữ mockup desktop (23px / 19px) quá to trên màn hẹp nên thu lại, và
+   giãn vùng chạm mỗi mục cho đủ 44px theo chuẩn cảm ứng. */
+.tt-mega-mobile .tt-mega-link {
+  font-size: 19px;
+  padding: 6px 0;
+  min-height: 34px;
+}
+.tt-mega-mobile .tt-mega-link-sm {
+  font-size: 16px;
+}
+
+.tt-header-link:hover {
+  color: #ffc6a5 !important;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+  /* leave room for the fixed mobile bottom nav */
+  .page-with-bottom-nav {
+    padding-bottom: 64px;
+  }
+}
